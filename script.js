@@ -15,7 +15,8 @@ xhr.onload = function(){
         pElem.innerHTML = `
             <h2 class='product-name'>${p.name}</h2>
             <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
-            <p class='product-price'><b>Price: </b>${p.description}</p>
+            <p class='product-price'><b>Price: </b>${p.price}</p>
+            <p class='product-price'><b>Description: </b>${p.description}</p>
             <a href=''>Seller profile</a>
             <button>Buy</button>
         `;
